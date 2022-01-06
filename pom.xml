@@ -7,6 +7,12 @@
     <groupId>com.imooc</groupId>
     <artifactId>imooc-news-dev</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>imooc-news-dev-commom</module>
+        <module>imooc-news-dev-model</module>
+        <module>imooc-news-dev-service-api</module>
+        <module>imooc-news-dev-service-user</module>
+    </modules>
 
     <!--
         1. 聚合工程可以分为顶级项目（顶级工程，父工程）与子工程（子module模块），
